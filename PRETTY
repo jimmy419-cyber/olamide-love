@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Me ❤️</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #fbe7e7;
+            font-family: Arial, sans-serif;
+        }
+        .love-text {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff4d4d;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="love-text" onclick="showLove()">I ❤️ You</div>
+
+    <script>
+        function showLove() {
+            window.location.href = "https://yourwebsite.com"; // Change this to any website you want
+        }
+    </script>
+
+</body>
+</html>
